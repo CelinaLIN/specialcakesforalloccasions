@@ -1,0 +1,134 @@
+/* CSS Document */
+.container {
+	text-align: center;
+}
+body {
+	font-size: 1em;
+	line-height: 1.3em;
+}
+main{
+padding-top: 80px;
+padding-left: 240px;
+padding-right: 240px;
+padding-bottom: 80px;
+}
+/* classes */
+.burntred {
+	color: #E94D40;
+}
+.navyblue {
+	color: #0C243C;
+}
+.specialcakesfont {
+	font-family: Arial, sans-serif;
+}
+.floatleft {
+    float: left;
+}
+.floatright {
+    float: right;
+}
+.clearboth {
+    clear: both;
+}
+.banner{
+	padding-top: 80px;
+}
+
+.content{
+    display: flex
+}
+
+.detail{
+	float: right;
+    padding: 300px 50px 30px 50px;
+    background-color: #f6f6f6;
+   width:50%;
+   font-size: 150%;
+}
+nav{
+	height: 40px;
+
+}
+h1{
+	color:#E94D40;
+	font-size: 40px;
+}
+p1{
+	font-size: 28px;
+}
+p2{
+	text-align: center;
+	font-size: 18px;
+}
+a{
+	color:black;
+}
+
+nav a {
+	text-decoration: none;
+	padding-right: 10px;
+	padding-left: 10px;
+	font-size: 25px;
+}
+footer{
+	padding-top: 100px;
+font-size: 10px;
+text-align: center;
+font-family: Arial, sans-serif;
+}
+
+table, th, td {
+	text-align: left;
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+th{
+	background-color: #e94e404b;
+}
+table{
+margin-left: auto;
+margin-right: auto;
+}
+.background{
+background-image:url(/images/b2.jpg);
+background-size: cover;
+width: 100%;
+}
+.contact us{
+	padding-top: 400px;
+}
+form{
+	
+	margin-left: auto;
+margin-right: auto;
+}
+#gallery{
+	display:flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin:2rem;
+	font-family: Arial, sans-serif;
+  }
+
+  #gallery div{
+	width:400px;
+	max-width:400px;
+	min-width:400px;
+	margin:1rem;
+	text-align:center;
+	font-size:1.5rem;
+	text-decoration: none;
+  }
+
+  #gallery div img{
+	width:400px;
+	max-width:400px;
+	min-width:400px;
+	margin:1rem;
+	text-align:center;
+	font-size:1.5rem;
+	text-decoration: none;
+  }
+
+  
